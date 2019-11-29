@@ -41,6 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -69,4 +70,4 @@ gem 'compass-rails','3.1.0'
 gem 'sprockets','3.7.2'
 gem 'devise'
 gem 'kaminari'
-gem 'rspec-rails'
+
